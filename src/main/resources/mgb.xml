@@ -12,7 +12,7 @@
 		<!-- 配置数据库连接 -->
 		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
 			connectionURL="jdbc:mysql://localhost:3306/ssm_crud?useSSL=false"
-			userId="root" password="15773272279wt..A">
+			userId="root" password="你自己的数据库密码">
 		</jdbcConnection>
 		<javaTypeResolver>
 			<property name="forceBigDecimals" value="false" />
