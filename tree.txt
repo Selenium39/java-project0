@@ -1,0 +1,320 @@
+卷 新加卷 的文件夹 PATH 列表
+卷序列号为 9266-E901
+D:.
+│  .classpath
+│  .project
+│  .springBeans
+│  pom.xml
+│  README.md
+│  tree.txt
+│  
+├─.settings
+│      .jsdtscope
+│      org.eclipse.jdt.core.prefs
+│      org.eclipse.jst.j2ee.ejb.annotations.xdoclet.prefs
+│      org.eclipse.m2e.core.prefs
+│      org.eclipse.wst.common.component
+│      org.eclipse.wst.common.project.facet.core.xml
+│      org.eclipse.wst.jsdt.ui.superType.container
+│      org.eclipse.wst.jsdt.ui.superType.name
+│      org.eclipse.wst.validation.prefs
+│      
+├─result-image
+│      add.png
+│      delete.png
+│      index.png
+│      update.png
+│      
+├─src
+│  ├─main
+│  │  ├─java
+│  │  │  └─com
+│  │  │      └─wantao
+│  │  │          ├─bean
+│  │  │          │      Department.java
+│  │  │          │      DepartmentExample.java
+│  │  │          │      Employee.java
+│  │  │          │      EmployeeExample.java
+│  │  │          │      Message.java
+│  │  │          │      
+│  │  │          ├─controller
+│  │  │          │      DepartmentController.java
+│  │  │          │      EmployeeController.java
+│  │  │          │      
+│  │  │          ├─dao
+│  │  │          │      DepartmentMapper.java
+│  │  │          │      EmployeeMapper.java
+│  │  │          │      
+│  │  │          └─service
+│  │  │                  DepartmentService.java
+│  │  │                  EmployeeService.java
+│  │  │                  
+│  │  ├─resources
+│  │  │  │  jdbc.properties
+│  │  │  │  log4j.properties
+│  │  │  │  mgb.xml
+│  │  │  │  mybatis-config.xml
+│  │  │  │  spring.xml
+│  │  │  │  springmvc.xml
+│  │  │  │  
+│  │  │  └─mapper
+│  │  │          DepartmentMapper.xml
+│  │  │          EmployeeMapper.xml
+│  │  │          
+│  │  └─webapp
+│  │      │  index-1.jsp
+│  │      │  index.jsp
+│  │      │  
+│  │      ├─js
+│  │      │      index-1.js
+│  │      │      index.js
+│  │      │      
+│  │      ├─META-INF
+│  │      │      MANIFEST.MF
+│  │      │      
+│  │      ├─static
+│  │      │  │  jquery-3.2.1.min.js
+│  │      │  │  
+│  │      │  └─bootstrap-3.3.7-dist
+│  │      │      ├─css
+│  │      │      │      bootstrap-theme.css
+│  │      │      │      bootstrap-theme.css.map
+│  │      │      │      bootstrap-theme.min.css
+│  │      │      │      bootstrap-theme.min.css.map
+│  │      │      │      bootstrap.css
+│  │      │      │      bootstrap.css.map
+│  │      │      │      bootstrap.min.css
+│  │      │      │      bootstrap.min.css.map
+│  │      │      │      
+│  │      │      ├─fonts
+│  │      │      │      glyphicons-halflings-regular.eot
+│  │      │      │      glyphicons-halflings-regular.svg
+│  │      │      │      glyphicons-halflings-regular.ttf
+│  │      │      │      glyphicons-halflings-regular.woff
+│  │      │      │      glyphicons-halflings-regular.woff2
+│  │      │      │      
+│  │      │      └─js
+│  │      │              bootstrap.js
+│  │      │              bootstrap.min.js
+│  │      │              npm.js
+│  │      │              
+│  │      └─WEB-INF
+│  │          │  web.xml
+│  │          │  
+│  │          ├─lib
+│  │          └─views
+│  │                  show.jsp
+│  │                  
+│  └─test
+│      ├─java
+│      │  └─com
+│      │      └─wantao
+│      │          └─test
+│      │                  DaoTest.java
+│      │                  DaoTest2.java
+│      │                  EmployeeControllerTest.java
+│      │                  MGBTest.java
+│      │                  
+│      └─resources
+└─target
+    │  ssm-crud-0.0.1-SNAPSHOT.war
+    │  
+    ├─classes
+    │  │  jdbc.properties
+    │  │  log4j.properties
+    │  │  mgb.xml
+    │  │  mybatis-config.xml
+    │  │  spring.xml
+    │  │  springmvc.xml
+    │  │  
+    │  ├─com
+    │  │  └─wantao
+    │  │      ├─bean
+    │  │      │      Department.class
+    │  │      │      DepartmentExample$Criteria.class
+    │  │      │      DepartmentExample$Criterion.class
+    │  │      │      DepartmentExample$GeneratedCriteria.class
+    │  │      │      DepartmentExample.class
+    │  │      │      Employee.class
+    │  │      │      EmployeeExample$Criteria.class
+    │  │      │      EmployeeExample$Criterion.class
+    │  │      │      EmployeeExample$GeneratedCriteria.class
+    │  │      │      EmployeeExample.class
+    │  │      │      Message.class
+    │  │      │      
+    │  │      ├─controller
+    │  │      │      DepartmentController.class
+    │  │      │      EmployeeController.class
+    │  │      │      
+    │  │      ├─dao
+    │  │      │      DepartmentMapper.class
+    │  │      │      EmployeeMapper.class
+    │  │      │      
+    │  │      └─service
+    │  │              DepartmentService.class
+    │  │              EmployeeService.class
+    │  │              
+    │  └─mapper
+    │          DepartmentMapper.xml
+    │          EmployeeMapper.xml
+    │          
+    ├─generated-test-sources
+    │  └─test-annotations
+    ├─m2e-wtp
+    │  └─web-resources
+    │      └─META-INF
+    │          │  MANIFEST.MF
+    │          │  
+    │          └─maven
+    │              └─com.wantao
+    │                  └─ssm-crud
+    │                          pom.properties
+    │                          pom.xml
+    │                          
+    ├─maven-archiver
+    │      pom.properties
+    │      
+    ├─maven-status
+    │  └─maven-compiler-plugin
+    │      ├─compile
+    │      │  └─default-compile
+    │      │          createdFiles.lst
+    │      │          inputFiles.lst
+    │      │          
+    │      └─testCompile
+    │          └─default-testCompile
+    │                  createdFiles.lst
+    │                  inputFiles.lst
+    │                  
+    ├─ssm-crud-0.0.1-SNAPSHOT
+    │  │  index-1.jsp
+    │  │  index.jsp
+    │  │  
+    │  ├─js
+    │  │      index-1.js
+    │  │      index.js
+    │  │      
+    │  ├─META-INF
+    │  │      MANIFEST.MF
+    │  │      
+    │  ├─static
+    │  │  │  jquery-3.2.1.min.js
+    │  │  │  
+    │  │  └─bootstrap-3.3.7-dist
+    │  │      ├─css
+    │  │      │      bootstrap-theme.css
+    │  │      │      bootstrap-theme.css.map
+    │  │      │      bootstrap-theme.min.css
+    │  │      │      bootstrap-theme.min.css.map
+    │  │      │      bootstrap.css
+    │  │      │      bootstrap.css.map
+    │  │      │      bootstrap.min.css
+    │  │      │      bootstrap.min.css.map
+    │  │      │      
+    │  │      ├─fonts
+    │  │      │      glyphicons-halflings-regular.eot
+    │  │      │      glyphicons-halflings-regular.svg
+    │  │      │      glyphicons-halflings-regular.ttf
+    │  │      │      glyphicons-halflings-regular.woff
+    │  │      │      glyphicons-halflings-regular.woff2
+    │  │      │      
+    │  │      └─js
+    │  │              bootstrap.js
+    │  │              bootstrap.min.js
+    │  │              npm.js
+    │  │              
+    │  └─WEB-INF
+    │      │  web.xml
+    │      │  
+    │      ├─classes
+    │      │  │  jdbc.properties
+    │      │  │  log4j.properties
+    │      │  │  mgb.xml
+    │      │  │  mybatis-config.xml
+    │      │  │  spring.xml
+    │      │  │  springmvc.xml
+    │      │  │  
+    │      │  ├─com
+    │      │  │  └─wantao
+    │      │  │      ├─bean
+    │      │  │      │      Department.class
+    │      │  │      │      DepartmentExample$Criteria.class
+    │      │  │      │      DepartmentExample$Criterion.class
+    │      │  │      │      DepartmentExample$GeneratedCriteria.class
+    │      │  │      │      DepartmentExample.class
+    │      │  │      │      Employee.class
+    │      │  │      │      EmployeeExample$Criteria.class
+    │      │  │      │      EmployeeExample$Criterion.class
+    │      │  │      │      EmployeeExample$GeneratedCriteria.class
+    │      │  │      │      EmployeeExample.class
+    │      │  │      │      Message.class
+    │      │  │      │      
+    │      │  │      ├─controller
+    │      │  │      │      DepartmentController.class
+    │      │  │      │      EmployeeController.class
+    │      │  │      │      
+    │      │  │      ├─dao
+    │      │  │      │      DepartmentMapper.class
+    │      │  │      │      EmployeeMapper.class
+    │      │  │      │      
+    │      │  │      └─service
+    │      │  │              DepartmentService.class
+    │      │  │              EmployeeService.class
+    │      │  │              
+    │      │  └─mapper
+    │      │          DepartmentMapper.xml
+    │      │          EmployeeMapper.xml
+    │      │          
+    │      ├─lib
+    │      │      aspectjweaver-1.9.2.jar
+    │      │      c3p0-0.9.1.2.jar
+    │      │      classmate-1.3.1.jar
+    │      │      commons-logging-1.2.jar
+    │      │      hibernate-validator-5.3.5.Final.jar
+    │      │      jackson-annotations-2.9.0.jar
+    │      │      jackson-core-2.9.7.jar
+    │      │      jackson-databind-2.9.7.jar
+    │      │      jboss-logging-3.3.0.Final.jar
+    │      │      jsqlparser-1.0.jar
+    │      │      jstl-1.2.jar
+    │      │      log4j-1.2.17.jar
+    │      │      mybatis-3.4.5.jar
+    │      │      mybatis-generator-core-1.3.5.jar
+    │      │      mybatis-spring-1.3.2.jar
+    │      │      mysql-connector-java-5.1.38.jar
+    │      │      pagehelper-5.1.3.jar
+    │      │      slf4j-api-1.7.12.jar
+    │      │      slf4j-log4j12-1.7.12.jar
+    │      │      spring-aop-5.1.3.RELEASE.jar
+    │      │      spring-aspects-5.1.3.RELEASE.jar
+    │      │      spring-beans-5.1.3.RELEASE.jar
+    │      │      spring-context-5.1.3.RELEASE.jar
+    │      │      spring-core-5.1.3.RELEASE.jar
+    │      │      spring-expression-5.1.3.RELEASE.jar
+    │      │      spring-jcl-5.1.3.RELEASE.jar
+    │      │      spring-jdbc-5.1.3.RELEASE.jar
+    │      │      spring-tx-5.1.3.RELEASE.jar
+    │      │      spring-web-5.1.3.RELEASE.jar
+    │      │      spring-webmvc-5.1.3.RELEASE.jar
+    │      │      validation-api-1.1.0.Final.jar
+    │      │      
+    │      └─views
+    │              show.jsp
+    │              
+    ├─surefire-reports
+    │      com.wantao.test.DaoTest.txt
+    │      com.wantao.test.EmployeeControllerTest.txt
+    │      com.wantao.test.MGBTest.txt
+    │      TEST-com.wantao.test.DaoTest.xml
+    │      TEST-com.wantao.test.EmployeeControllerTest.xml
+    │      TEST-com.wantao.test.MGBTest.xml
+    │      
+    └─test-classes
+        └─com
+            └─wantao
+                └─test
+                        DaoTest.class
+                        DaoTest2.class
+                        EmployeeControllerTest.class
+                        MGBTest.class
+                        
